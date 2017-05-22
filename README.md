@@ -54,7 +54,7 @@ npm run build
 ```
 ### 运行Node server
 ```
-npm run start//node server/index.js
+npm run start或者node server/index.js
 ```
 
 ### 访问3000端口
