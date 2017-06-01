@@ -34,10 +34,6 @@ npm install
 
 修改配置文件config.js,指定自己的数据库地址，端口，数据库，用户名和密码
 
-### 编译
-```
-npm run build
-```
 ### 运行Node server
 ```
 npm run start或者node server/index.js
@@ -63,3 +59,11 @@ npm run run-dev-server
 npm run run-server
 ```
 ### 访问服务:3000端口(包含了HMR)
+
+### api
+Route	HTTP Verb	Description
+/api/bears	GET	Get all the bears.
+/api/bears	POST	Create a bear.
+/api/bears/:bear_id	GET	Get a single bear.
+/api/bears/:bear_id	PUT	Update a bear with new info.
+/api/bears/:bear_id	DELETE	Delete a bear.
